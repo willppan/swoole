@@ -1,0 +1,8 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--with-php-config=/usr/local/Cellar/php@7.1/7.1.32/bin/php-config' \
+'--enable-async-redis' \
+"$@"
